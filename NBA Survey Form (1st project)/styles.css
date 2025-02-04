@@ -1,0 +1,136 @@
+body {
+  background-image: url(https://img.freepik.com/free-vector/cartoon-background-basketball-court-city-outdoor-sports-arena-with-basket-game_1441-2690.jpg?t=st=1738605765~exp=1738609365~hmac=a7763c422d714fc62435c3fc9f775c971d890ae4eaf3b858843e021d52aa4c84&w=1060);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: center; 
+}
+
+#survey-form {
+  background-color: #F4A460;
+  font-family: Georgia serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 15px;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.middle {
+  text-align: center;
+}
+
+form {
+  padding: 1.5em;
+}
+
+label, textarea {
+  display: block;
+  margin-bottom: 7px;
+}
+
+textarea{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 76%;
+  height: 100px;
+  color: gray;
+  background-color: #FFE4C4;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  max-width: 90%;
+  max-height: 130px;
+  min-width: 150px;
+  min-height: 80px;
+}
+
+input[type="radio"]{
+  display: inline-block;
+  min-height: 1.10rem;
+  min-width: 1.25rem;
+  background-color: #FF8C00;
+  border-color: #FF8C00;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    min-height: 1rem;
+    min-width: 1.10rem;
+}
+
+
+
+div{
+  color: white;
+  font-size: 16px;
+}
+
+input.fan-data{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 80%;
+    height: 25px;
+    color: gray;
+    background-color: #FFE4C4;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.fan-data{
+  text-align: center;
+}
+
+label, legend {
+  font-size: 20px;
+  font-family: Georgia;
+  color: white;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid #FF8C00;
+  margin-bottom: 15px;
+}
+
+select {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 30px;
+  color: gray;
+  background-color: #FFE4C4;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+input[type="submit"]{
+  width: 60%;
+  height: 30px;
+  color: white;
+  background-color: #FF8C00;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
+
+/* CHANGE COLOR OF CHECKED RADIO BUTTONS */
+/* FIND A WAY TO CHECKED CHECKBOXES BE DISPLAYED  AS NUMBERS FROM 1 to 10?*/
+/* CHANGE COLOR OF PICKED DROPDOWN VALUE TO BE DISPLAYED IN A SPECIFIC COLOR */
