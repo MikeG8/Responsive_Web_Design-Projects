@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MG's NBA Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <img src="">
+<h1 id="title" class="title"> NBA Survey Form </h1>
+<p id="description"> It's Mike here! NBA Survey is about top active players as I want to choose the best one according to people's voice as well as make a ranking of TOP 10. Thank you for submitting your answers.</p>
+<form id="survey-form" class="middle">
+<fieldset>
+<label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name" class = "fan-data"></input></label>
+<label id="email-label">Email: <input id="email" type="email" required placeholder="Enter your Email" class = "fan-data"></input></label>
+<label id="number-label">Age (optional): <input id="number" type="number" required placeholder="Enter your age" min="16" max="100" class = "fan-data"></input></label>
+</fieldset>
+<fieldset> <legend> Fan experience:</legend>
+<label for="fan-experience1"><input type="radio" name="fan-experience" value="max2yrs" checked> Less than 5 years</input></label>
+<label for="fan-experience2"><input type="radio" name="fan-experience" value="max5yrs" ></input> Less than 5 years</label>
+<label for="fan-experience2"><input type="radio" name="fan-experience" value="more5yrs" ></input> More than 5 years</label>
+</fieldset>
+<fieldset><legend>What do you like the most as a fan?</legend>
+<label for="fan-player"><input type="radio" name="fan-enjoys" value="fan-player" checked> Watching your favorite player</input></label>
+<label for="fan-team"><input type="radio" name="fan-enjoys" value="fan-team"> Watching your favorite team</input></label>
+<label for="fan-basketball"><input type="radio" name="fan-enjoys" value="fan-basketball"> In general watching basketball</input></label>
+</fieldset>
+<fieldset> <legend>Favorite team:</legend>
+<select id="dropdown">
+<option value="">(choose favorite team)</option>
+<option>Atlanta Hawks</option>
+<option>Boston Celtics</option>
+<option>Brooklyn Nets</option>
+<option>Charlotte Hornets</option>
+<option>Chicago Bulls</option>
+<option>Cleveland Cavaliers</option>
+<option>Dallas Mavericks</option>
+<option>Denver Nuggets</option>
+<option>Detroit Pistons</option>
+<option>Golden State Warriors</option>
+<option>Houston Rockets</option>
+<option>Indiana Pacers</option>
+<option>Los Angeles Clippers</option>
+<option>Los Angeles Lakers</option>
+<option>Memphis Grizzlies</option>
+<option>Miami Heat</option>
+<option>Milwaukee Bucks</option>
+<option>Minnesota Timberwolves</option>
+<option>New Orleans Pelicans</option>
+<option>New York Knicks</option>
+<option>Oklahoma City Thunder</option>
+<option>Orlando Magic</option>
+<option>Philadelphia 76ers</option>
+<option>Phoenix Suns</option>
+<option>Portland Trail Blazers</option>
+<option>Sacramento Kings</option>
+<option>San Antonio Spurs</option>
+<option>Toronto Raptors</option>
+<option>Utah Jazz</option>
+<option>Washington Wizards</option>
+</select>
+</fieldset>
+<fieldset><legend>Pick TOP 10(from active top players according to NBA.com):</legend>
+<div>
+<input type="checkbox" value="0">Shai Gilgeous-Alexander</input>
+<input type="checkbox" value="1">Giannis Antetokounmpo</input>
+<input type="checkbox" value="2">Nikola Jokić</input>
+<input type="checkbox" value="3">LaMelo Ball</input>
+<input type="checkbox" value="4">Kevin Durant</input>
+<input type="checkbox" value="5">Tyrese Maxey</input>
+<input type="checkbox" value="6">Jayson Tatum</input>
+<input type="checkbox" value="7">Anthony Edwards</input>
+<input type="checkbox" value="8">Lebron James</input>
+<input type="checkbox" value="9">Victor Wembanyama</input>
+<input type="checkbox" value="10">Kyrie Irving</input>
+<input type="checkbox" value="11">Anthony Davis</input>
+<input type="checkbox" value="12">Stephen Curry</input>
+<input type="checkbox" value="13">Devin Booker</input>
+<input type="checkbox" value="14">De'Aaron Fox</input>
+<input type="checkbox" value="15">Jalen Brunson</input>
+<input type="checkbox" value="16">Donovan Mitchell</input>
+</div>
+</fieldset>
+<label for="user-ranking">Provide your personal TOP 10<textarea id="user-ranking" name="user-ranking" rows="3" cols="30" placeholder="Type your own TOP 10."></textarea></label>
+<input id="submit" type="submit" value="Submit">
+</form>
+</body>
+</html>
